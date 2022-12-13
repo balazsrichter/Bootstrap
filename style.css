@@ -1,0 +1,20 @@
+﻿body {background-color: rgb(15,20,20); font-family: verdana; color: azure}
+/* .navbar-brand, .nav-link, a.nav-link.active, .navbar-toggler-icon {color: azure !important} */
+#gombok {display: flex; flex-direction: row; justify-content: space-evenly; margin-left: -2.5%}
+#kepek {border-style: dotted}
+
+
+
+@media screen and (max-width: 1599px)
+{
+
+}
+
+
+@media screen and (min-width: 1600px)
+{
+
+     
+  
+}
+@media print {}

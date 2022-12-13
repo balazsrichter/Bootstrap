@@ -1,0 +1,349 @@
+﻿<!doctype html>
+<html lang="hu">
+<head>
+<meta charset=utf-8>
+<title>XENIA (UA)</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<!-- <div class="container-fluid"> 
+<div class="row">
+
+<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand text-white" href="#menu1">Kezdőlap</a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item ">
+          <a class="nav-link active text-white" aria-current="page" href="#menu5">Menü5</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#menu6">Menü6</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="http://www.rapidfordito.hu" target=blank>Rapid</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+	
+<div class="card col-12 col-md-6 col-lg-4 col-xl-3" id=menu1>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+</div>
+	
+<div class="card col-12 col-md-6 col-lg-4 col-xl-3" id=menu2>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+</div>
+
+<div class="card col-12 col-md-6 col-lg-4 col-xl-3" id=menu3>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+</div>	
+
+<div class="card col-12 col-md-6 col-lg-4 col-xl-3" id=menu4>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+</div>
+
+<div class="card col-12 col-md-6 col-lg-4 col-xl-3" id=menu5>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+</div>
+
+<div class="card col-12 col-md-6 col-lg-4 col-xl-3" id=menu6>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+</div>	
+
+	
+</div>
+</div>
+	
+<br><br><br> 
+	
+<form class="row g-3">
+
+ <div class="col-12">
+    <label for="inputAddress" class="form-label">Név</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Vezetéknév, keresztnév">
+  </div>
+	  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Irányítószám</label>
+    <input type="text" class="form-control" id="inputZip" placeholder="1039">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Város</label>
+    <input type="text" class="form-control" id="inputCity" placeholder="Budapest">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Ország</label>
+    <select id="inputState" class="form-select">
+      <option selected>Kérem válasszon...</option>
+      <option>Magyarország</option>
+		 <option>Ausztria</option>
+		 <option>Szlovákia</option>
+		 <option>Románia</option>
+		 <option>Ukrajna</option>
+    </select>
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Cím</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Random u. 6.">
+  </div>
+	  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Telefonszám</label>
+    <input type="email" class="form-control" id="inputEmail4" placeholder="+36 30 123 45 67">
+  </div>
+	  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">E-mail</label>
+    <input type="email" class="form-control" id="inputEmail4" placeholder="jomagam@gmail.com">
+  </div>
+	
+	<div id=gombok class=col-2>
+	<div class="checkbox-inline">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    Férfi
+  </label>
+</div>
+<div class="checkbox-inline">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+  <label class="form-check-label" for="flexRadioDefault2">
+   Nő
+  </label>
+</div>
+	 </div>
+	
+
+	<div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Hozzájárulok az adataim kezeléséhez
+      </label>
+    </div>
+  </div>
+		
+<div class=row>
+  <div class="col-2">
+    <button type="submit" class="btn btn-success">Beküld</button>
+	  </div>
+		<div class="col-2">
+	 <button type="reset" class="btn btn-danger">Törlés</button>
+		</div>
+	 </div>
+		  </div>
+</form> -->
+
+<div class="container-xxl"> 
+<div class="row">
+<h2 class="text-center mt-5">
+  XENIA
+  <small class="text-muted">Fellépések</small>
+</h2>
+	
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand text-white" href="">Kezdőlap</a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 <li class="nav-item">
+          <a class="nav-link" href="#ljubljana">Képek</a>
+        </li>      
+		  <li class="nav-item">
+          <a class="nav-link" href="#kiskepek">Kisképek</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href=#tablazat>Helyszínek</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link text-warning" href="https://www.youtube.com/@xenia-ua" target=blank>YouTube</a>
+        </li> 
+      </ul>
+      
+    </div>
+  </div>
+</nav>	
+
+<div class="container-xxl"> 
+<div class="row">	
+<img src="img/Xenia%20-%20Cvetlicarna.jpg" class="img-thumbnail my-4 col-xxl-4 col-xl-6 col-12" alt="Ljubljana" id=ljubljana>
+<img src="img/Xenia%20-%20Rept%C3%A9r.jpg" class="img-thumbnail my-4 col-xxl-4 col-xl-6 col-12" alt="Halloween" id=halloween>
+<img src="img/Xenia%20-%20Kom%C3%A1rom.jpg" class="img-thumbnail my-4 col-xxl-4 col-xl-6 col-12" alt="Komárom" id=komarom>
+<img src="img/Xenia%20-%20Szabadka.jpg" class="img-thumbnail my-4 col-xxl-4 col-xl-6 col-12" alt="Szabadka" id=szabadka>
+<img src="img/Xenia.jpg" class="img-thumbnail my-4 col-xxl-4 col-xl-6 col-12" alt="Budapest" id=budapest>
+<img src="img/Xenia%20-%20Szeged.jpg" class="img-thumbnail my-4 col-xxl-4 col-xl-6 col-12" alt="Szeged" id=szeged>
+</div>
+</div>
+
+	
+<div class="container-xxl" id=kiskepek> 
+<div class="row">	
+	
+<div class="card mb-3 bg-warning col-xxl-2 col-xl-12 col-12">
+<a href=#ljubljana><div class="card-body">
+<h5 class="card-title text-dark text-center"><b>Ljubljana</b></h5>
+<img src="img/Xenia%20-%20Cvetlicarna.jpg" class="card-img-top" alt="Ljubljana">
+</div></a>
+</div>
+	
+<div class="card mb-3 bg-warning col-xxl-2 col-xl-12 col-12">
+<a href=#halloween><div class="card-body">
+<h5 class="card-title text-dark text-center"><b>Halloween</b></h5>
+<img src="img/Xenia%20-%20Rept%C3%A9r.jpg" class="card-img-top" alt="Halloween">
+</div></a>
+</div>
+	
+<div class="card mb-3 bg-warning col-xxl-2 col-xl-6 col-12">
+<a href=#komarom><div class="card-body">
+<h5 class="card-title text-dark text-center"> <b>Komárom</b></h5>
+<img src="img/Xenia%20-%20Kom%C3%A1rom.jpg" class="card-img-top" alt="Komárom">
+</div></a>
+</div>	
+
+<div class="card mb-3 bg-warning col-xxl-2 col-xl-6 col-12">
+<a href=#szabadka><div class="card-body">
+<h5 class="card-title text-dark text-center"><b>Szabadka</b></h5>
+<img src="img/Xenia%20-%20Szabadka.jpg" class="card-img-top" alt="Szabadka">
+</div> </a>
+</div>
+	
+<div class="card mb-3 bg-warning col-xxl-2 col-xl-6 col-12">
+<a href=#budapest><div class="card-body">
+<h5 class="card-title text-dark text-center"><b>Budapest</b></h5>
+<img src="img/Xenia.jpg" class="card-img-top" alt="Budapest">
+</div> </a>
+</div>
+	
+<div class="card mb-3 bg-warning col-xxl-2 col-xl-6 col-12">
+<a href=#szeged><div class="card-body">
+<h5 class="card-title text-dark text-center"><b>Szeged</b></h5>
+<img src="img/Xenia%20-%20Szeged.jpg" class="card-img-top" alt="Szeged"> 
+</div> </a>
+</div> 
+	
+</div>
+</div>
+	
+	
+	
+  <table class="table table-dark table-striped table-hover" id=tablazat>
+    <thead>
+      <tr>
+        <th>Ország</th>
+        <th>Város</th>
+        <th>Hónap</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Szlovénia</td>
+        <td>Ljubljana</td>
+        <td>December</td>
+      </tr>
+      <tr>
+        <td>Magyarország</td>
+        <td>Budapest</td>
+        <td>Október</td>
+      </tr>
+      <tr>
+        <td>Magyarország</td>
+        <td>Komárom</td>
+        <td>Július</td>
+      </tr>
+		<tr>
+        <td>Szerbia</td>
+        <td>Szabadka</td>
+        <td>Május</td>
+      </tr>
+		<tr>
+        <td>Magyarország</td>
+        <td>Budapest</td>
+        <td>Április</td>
+      </tr>
+		<tr>
+        <td>Magyarország</td>
+        <td>Szeged</td>
+        <td>Január</td>
+		</tr> 
+    </tbody>
+  </table>
+	
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="img/MissMonique2.jpg" class="d-block w-100" alt="MiMo1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class=text-white>Miss Monique</h5>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="img/MiMo1.jpg" class="d-block w-100" alt="MiMo2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class=text-white>Miss Monique</h5>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/MiMo2019.jpg" class="d-block w-100" alt="MiMo3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class=text-white>Miss Monique</h5>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+	
+</div>
+</div>
+
+<script src="./main.js"> </script>
+</body>
+</html>
